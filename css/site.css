@@ -35,7 +35,7 @@ div#body h1 {  color: #9c0; font-weight: bolder; text-shadow: -1px 1px 0 rgba(50
 div#body h2 {  color: #790; font-weight: bolder; text-shadow: -1px 1px 0 rgba(200, 200, 200, .7) !important; }
 div#body h3 {  color: #444; font-weight: bolder; text-shadow: -1px 1px 0 rgba(200, 200, 200, .7) !important; }
 div#body p {   margin-bottom: 15px; font-size: 21px; font-weight: 200; }
-div#body ul li {   margin-bottom: 15px; font-size: 17px; font-weight: 200; }
+div#body ul li {   margin-bottom: 15px; font-size: 21px; font-weight: 200; }
 div#body blockquote { margin-bottom: 15px; font-size: 25px; font-weight: 200; color: #999; }
 
 
