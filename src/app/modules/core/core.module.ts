@@ -13,6 +13,10 @@ import {NavbarComponent} from './components/navbar/navbar.component';
     FooterComponent,
     NavbarComponent
   ],
-  providers: []
+  providers: [],
+  exports: [
+    HeaderComponent,
+    FooterComponent
+  ]
 })
 export class CoreModule {}

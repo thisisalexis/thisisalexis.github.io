@@ -4,6 +4,4 @@ import {Component} from '@angular/core';
   selector: 'tia-core-header',
   templateUrl: 'header.component.html'
 })
-export class HeaderComponent {
-
-}
+export class HeaderComponent {}
