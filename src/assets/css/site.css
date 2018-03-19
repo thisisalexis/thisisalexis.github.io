@@ -39,9 +39,9 @@ div#body ul li {   margin-bottom: 15px; font-size: 21px; font-weight: 200; }
 div#body blockquote { margin-bottom: 15px; font-size: 25px; font-weight: 200; color: #999; }
 
 
-div#body section.section { 
-	-webkit-box-shadow: inset 0 2px 2px rgba(150, 150, 150, 0.2), 0 -2px 2px rgba(150, 150, 150, 0.2); 
-	box-shadow: inset 0 1px 1px rgba(150, 150, 150, 0.05), 0 -1px 1px rgba(150, 150, 150, 0.05);  
+div#body section.section {
+	-webkit-box-shadow: inset 0 2px 2px rgba(150, 150, 150, 0.2), 0 -2px 2px rgba(150, 150, 150, 0.2);
+	box-shadow: inset 0 1px 1px rgba(150, 150, 150, 0.05), 0 -1px 1px rgba(150, 150, 150, 0.05);
 }
 
 div#body section.section.section-even {
@@ -67,7 +67,7 @@ div#body section.section .content .content-right { text-align: left; }
 	div#body section.section .content .content-left { text-align: center !important;}
 	div#body section.section .content .content-right { text-align: center !important; }
 }
-	
+
 div#body section.section .content summary { text-align: center; }
 
 div#body section.section .louder h1 { font-size: 5em; }
@@ -75,7 +75,7 @@ div#body section.section .louder h1 small { font-size: .4em; }
 div#body section.section .louder p { line-height: 50px !important; margin-bottom: 25px;}
 div#body section.section .louder p .label { font-size: .6em; }
 
-div#body section#welcome.section {  }	
+div#body section#welcome.section {  }
 
 
 div#body section#about-me.section {  }
@@ -84,17 +84,17 @@ div#body section#experience.section {  }
 div#body section#skills.section {  }
 div#body section#contact-me.section {  }
 
-div#body section.chalkboard { 
-	background: url('../img/patterns/chalkboard.jpg') top left repeat; 
-	color: #777;  
+div#body section.chalkboard {
+	background: url('../img/patterns/chalkboard.jpg') top left repeat;
+	color: #777;
 	-webkit-box-shadow: 0 -2px 2px rgba(150, 150, 150, 0.2);
 	box-shadow: 0 -2px 2px rgba(150, 150, 150, .2);
 	}
 div#body section.chalkboard a { color: #bbb; }
 
-footer#footer { background: url('../img/patterns/chalkboard.jpg') top left repeat; color: #666; 
+footer#footer { background: url('../img/patterns/chalkboard.jpg') top left repeat; color: #666;
 	-webkit-box-shadow: 0 -2px 2px rgba(150, 150, 150, 0.2);
 	box-shadow: 0 -2px 2px rgba(150, 150, 150, .2);
 }
-footer#footer .bottom { text-align: center; }
+footer#footer .bottom { border-top: 1px solid #252525; text-align: center; }
 footer#footer #copyright { padding: 10px 0 0; }

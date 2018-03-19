@@ -16,4 +16,4 @@ const routes: Routes = [
   { path: 'contact-me', component: ContactMeComponent },
   // TODO { path: '**', component: ErrorPageComponent }
 ];
-export const appRouting = RouterModule.forRoot( routes );
+export const appRouting = RouterModule.forRoot( routes, { enableTracing: true } );
