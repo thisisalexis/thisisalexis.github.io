@@ -7,6 +7,7 @@ import {ExperienceComponent} from './components/experience/experience.component'
 import {SkillsComponent} from './components/skills/skills.component';
 import {ContactMeComponent} from './components/contact-me/contact-me.component';
 import {RouterModule} from '@angular/router';
+import {CertificationsComponent} from './components/certifications/certifications.component';
 
 @NgModule({
   imports: [
@@ -19,7 +20,8 @@ import {RouterModule} from '@angular/router';
     EducationComponent,
     ExperienceComponent,
     SkillsComponent,
-    ContactMeComponent
+    ContactMeComponent,
+    CertificationsComponent
   ],
   providers: [
   ]

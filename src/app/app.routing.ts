@@ -5,6 +5,7 @@ import {EducationComponent} from './modules/content/components/education/educati
 import {ExperienceComponent} from './modules/content/components/experience/experience.component';
 import {SkillsComponent} from './modules/content/components/skills/skills.component';
 import {ContactMeComponent} from './modules/content/components/contact-me/contact-me.component';
+import {CertificationsComponent} from './modules/content/components/certifications/certifications.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'about-me', component: AboutMeComponent },
   { path: 'education', component: EducationComponent },
   { path: 'experience', component: ExperienceComponent },
+  { path: 'certifications', component: CertificationsComponent },
   { path: 'skills', component: SkillsComponent },
   { path: 'contact-me', component: ContactMeComponent },
   // TODO { path: '**', component: ErrorPageComponent }
