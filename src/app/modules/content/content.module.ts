@@ -6,10 +6,12 @@ import {HomeComponent} from './components/home/home.component';
 import {ExperienceComponent} from './components/experience/experience.component';
 import {SkillsComponent} from './components/skills/skills.component';
 import {ContactMeComponent} from './components/contact-me/contact-me.component';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   declarations: [
     HomeComponent,
