@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
 export class HomeComponent {
 
   constructor() {
-    console.log(environment.shortName);
+
   }
 
   shortName: string = environment.shortName;
