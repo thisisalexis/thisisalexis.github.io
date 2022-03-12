@@ -74,7 +74,7 @@ div#body section.section .content summary { text-align: center; }
 div#body section.section .louder h1 { font-size: 5em; }
 div#body section.section .louder h1 small { font-size: .4em; }
 div#body section.section .louder p { line-height: 50px !important; margin-bottom: 25px;}
-div#body section.section .louder p .label { font-size: .6em; }
+div#body section.section .louder p .label { font-size: .6em; margin-right: 15px; }
 
 div#body section#welcome.section {  }
 
