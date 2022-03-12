@@ -18,7 +18,7 @@ export const environment = {
   skype: "thisisalexis",
   stackOverFlowProfile: "https://stackoverflow.com/users/6035392/thisisalexis",
   githubProfile: "https://github.com/thisisalexis",
-  linkedInProfile: "https://www.linkedin.com/in/alexis-jose-bravo-llovera/"
+  linkedInProfile: "https://www.linkedin.com/in/alexis-jose-bravo-llovera/?locale=en_US"
 };
 
 /*
