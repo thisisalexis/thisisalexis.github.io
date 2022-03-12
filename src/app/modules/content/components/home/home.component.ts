@@ -7,10 +7,6 @@ import { environment } from 'src/environments/environment';
 })
 export class HomeComponent {
 
-  constructor() {
-
-  }
-
   shortName: string = environment.shortName;
   role: string = environment.role;
   profession: string = environment.profession;
@@ -22,5 +18,9 @@ export class HomeComponent {
   email: string = environment.email;
   phone: string = environment.phone;
 
+
+  constructor() {
+
+  }
 
 }
