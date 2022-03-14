@@ -14,7 +14,7 @@ export const environment = {
   currentCompanyName: "Nisum",
   currentCompanyWebSite: "https://www.nisum.com/",
   currentCompanyDescription: "a leading global digital commerce firm headquartered in California, with services spanning digital strategy and transformation, insights and analytics, blockchain, business agility, and custom software development",
-  instagram: "thisisalexis1",
+  instagram: "http://www.instagram.com/thisisalexis1",
   skype: "thisisalexis",
   stackOverFlowProfile: "https://stackoverflow.com/users/6035392/thisisalexis",
   githubProfile: "https://github.com/thisisalexis",
