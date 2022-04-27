@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-xs-12 col-md-5">
           <h3>About this Site</h3>
-          <p>This site was made by me, using <a href="http://getbootstrap.com/" target="_blank">Bootstrap CSS</a>, <a href="https://jquery.com/" target="_blank">JQuery</a>, <a href="https://angular.io" target="_blank">Angular</a> and <a href="https://firebase.google.com/" target="_blank">Firebase</a> to store the data. Copyright &copy; {{shortName}} {{ this.currentYear }}</p>
+          <p>This site has been completely developed by me, using <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>, <a href="https://angular.io" target="_blank">Angular</a> and <a href="https://firebase.google.com/" target="_blank" title="Firebase">Firebase</a>, hosted over different <a href="https://aws.amazon.com/" title="Amazon AWS" target="_blank">AWS Services</a>. <span *ngIf="false">Copyright &copy; {{shortName}} {{ this.currentYear }}</span></p>
         </div>
         <div class="col-xs-12 col-md-6 col-md-offset-1">
           <h3>Let's get in touch</h3>
@@ -25,8 +25,20 @@
     <div class="container-fluid">
       <div class="row">
         <div id="copyright" class="col-xs-12">
-          <p>Copyright &copy; {{shortName}} {{ this.currentYear }}</p>
+          <span class="inline">Copyright &copy; {{shortName}} {{ this.currentYear }}</span>
+
+          <ul class="list-inline inline">
+            <li routerLinkActive="active"><a routerLink="/home" role="button">Home</a></li>
+            <li routerLinkActive="active"><a routerLink="/about-me" role="button">About me</a></li>
+            <li routerLinkActive="active"><a routerLink="/skills" role="button">Skills</a></li>
+            <li routerLinkActive="active"><a routerLink="/experience" role="button">Experience</a></li>
+            <li routerLinkActive="active"><a routerLink="/education" role="button">Education</a></li>
+            <li routerLinkActive="active"><a routerLink="/certifications" role="button">Certifications</a></li>
+            <li routerLinkActive="active"><a routerLink="/contact-me" role="button"><strong>Contact me</strong></a></li>
+          </ul>
+
         </div>
+
       </div>
     </div>
   </div>
