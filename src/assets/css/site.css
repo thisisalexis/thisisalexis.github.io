@@ -97,9 +97,20 @@ div#body section.chalkboard {
 	}
 div#body section.chalkboard a { color: #bbb; }
 
-footer#footer { background: url('../img/patterns/chalkboard.jpg') top left repeat; color: #666;
+footer#footer { background: url('../img/patterns/chalkboard.jpg') top lef    border-bottom-color: rgb(229, 229, 229);
+  t repeat; color: #666;
 	-webkit-box-shadow: 0 -2px 2px rgba(150, 150, 150, 0.2);
 	box-shadow: 0 -2px 2px rgba(150, 150, 150, .2);
 }
 footer#footer .bottom { border-top: 1px solid #252525; text-align: center; }
 footer#footer #copyright { padding: 10px 0 0; }
+
+
+#contact-form-modal button.cancel-message-button { color: #333 !important; }
+
+
+#contact-form-modal .modal-content { background: url('../img/patterns/skulls.png') top left repeat rgba(255, 255, 255, 0.8); }
+#contact-form-modal .modal-content .modal-header {  border-bottom-color: #ccc; }
+#contact-form-modal .modal-content .send-message-button { color: #111; font-weight: bold; }
+
+

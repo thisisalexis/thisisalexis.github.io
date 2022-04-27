@@ -15,15 +15,14 @@ export class ContactMeComponent {
   currentCountry: string = environment.currentCountry;
   githubProfile: string = environment.githubProfile;
   linkedInProfile: string = environment.linkedInProfile;
-
-
-
   role: string = environment.role;
   profession: string = environment.profession;
   instagram: string = environment.instagram;
   skype: string = environment.skype;
   stackOverFlowProfile: string = environment.stackOverFlowProfile;
 
-
+constructor() {
+console.log('Class constructor');
+}
 
 }
